@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 960 540"
+   width="960"
+   height="540"
+   version="1.1"
+   sodipodi:docname="polygon-scatter-haikei.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#002744;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#001829;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="960"
+       y1="0"
+       x2="1.2903225"
+       y2="539.35486"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.775"
+     inkscape:cx="272.25806"
+     inkscape:cy="430.32258"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <rect
+     width="960"
+     height="540"
+     fill="#001829"
+     id="rect1"
+     style="fill-opacity:1;fill:url(#linearGradient6)" />
+  <g
+     id="g5">
+    <g
+       transform="translate(689 466)"
+       id="g1">
+      <path
+         d="M0 -72.8L63.1 -36.4L63.1 36.4L0 72.8L-63.1 36.4L-63.1 -36.4Z"
+         fill="none"
+         stroke="#496470"
+         stroke-width="2"
+         id="path1" />
+    </g>
+    <g
+       transform="translate(328 93)"
+       id="g2">
+      <path
+         d="M0 -59L51.1 -29.5L51.1 29.5L0 59L-51.1 29.5L-51.1 -29.5Z"
+         fill="none"
+         stroke="#496470"
+         stroke-width="2"
+         id="path2" />
+    </g>
+    <g
+       transform="translate(887 440)"
+       id="g3">
+      <path
+         d="M0 -54L46.8 -27L46.8 27L0 54L-46.8 27L-46.8 -27Z"
+         fill="none"
+         stroke="#496470"
+         stroke-width="2"
+         id="path3" />
+    </g>
+    <g
+       transform="translate(810 308)"
+       id="g4">
+      <path
+         d="M0 -54L46.8 -27L46.8 27L0 54L-46.8 27L-46.8 -27Z"
+         stroke="#496470"
+         fill="none"
+         stroke-width="2"
+         id="path4" />
+    </g>
+  </g>
+</svg>
