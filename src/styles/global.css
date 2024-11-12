@@ -1,0 +1,99 @@
+.outer-card {
+    color: white;
+    backdrop-filter: blur(10px) brightness(0.7);
+    border-width: 2px;
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, 0.9);
+    border-radius: 20px;
+    min-height: 50rem;
+    padding: 2rem;
+    max-width: 1400px;
+}
+
+.section {
+    min-height: 50vw;
+}
+
+.container {
+    display: flex;
+}
+
+.col-f {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col-f-0 {
+    flex-direction: column;
+}
+
+.row-f {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.row-f-0 {
+    flex-direction: row;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-wrap-r {
+    flex-wrap: wrap-reverse;
+}
+
+.f-around {
+    justify-content: space-around;
+}
+
+.f-evenly {
+    justify-content: space-evenly;
+}
+
+.f-between {
+    justify-content: space-between;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.f-content {
+    margin: 0 auto;
+    max-width: 1280px;
+    flex: 1;
+}
+
+.img {
+    border-radius: 30px;
+    min-width: 240px;
+    width: calc(100%);
+    max-width: 350px;
+    filter: drop-shadow(5px 5px 3px rgb(182, 210, 255)) saturate(120%);
+}
+
+.lb {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+}
+
+.nav {
+    padding: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.text {
+    line-height: 1.15cm;
+}
+
+.t-center {
+    text-align: center;
+}
