@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d81027e2.css",
-    "main.js": "/static/js/main.58d72f6a.js",
-    "static/js/453.2acb10bf.chunk.js": "/static/js/453.2acb10bf.chunk.js",
-    "static/media/polygon-scatter-haikei.svg": "/static/media/polygon-scatter-haikei.f615134bf2197186c681.svg",
-    "index.html": "/index.html",
-    "main.d81027e2.css.map": "/static/css/main.d81027e2.css.map",
-    "main.58d72f6a.js.map": "/static/js/main.58d72f6a.js.map",
-    "453.2acb10bf.chunk.js.map": "/static/js/453.2acb10bf.chunk.js.map"
+    "main.css": "/ahmadakbar03.github.io/static/css/main.f07f2528.css",
+    "main.js": "/ahmadakbar03.github.io/static/js/main.f8a466c8.js",
+    "static/js/453.2acb10bf.chunk.js": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js",
+    "static/media/polygon-scatter-haikei.svg": "/ahmadakbar03.github.io/static/media/polygon-scatter-haikei.f615134bf2197186c681.svg",
+    "index.html": "/ahmadakbar03.github.io/index.html",
+    "main.f07f2528.css.map": "/ahmadakbar03.github.io/static/css/main.f07f2528.css.map",
+    "main.f8a466c8.js.map": "/ahmadakbar03.github.io/static/js/main.f8a466c8.js.map",
+    "453.2acb10bf.chunk.js.map": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d81027e2.css",
-    "static/js/main.58d72f6a.js"
+    "static/css/main.f07f2528.css",
+    "static/js/main.f8a466c8.js"
   ]
 }
