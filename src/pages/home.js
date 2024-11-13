@@ -107,7 +107,7 @@ function Home() {
                                 <div className="grid grid-col-3 grid-col-2 grid-col-1">
                                     <div className="container col-f f-center-c card">
                                         <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216712736.jpg`} alt="" />
-                                        <p>Editing Video</p>
+                                        <p>Edited Video</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
                                         <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216668165.jpg`} alt="" />
@@ -115,7 +115,7 @@ function Home() {
                                     </div>
                                     <div className="container col-f f-center-c card">
                                         <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216616921.jpg`} alt="" />
-                                        <p>Taught Multimedia</p>
+                                        <p>Taught Multimedia</p> 
                                     </div>
                                     <div className="container col-f f-center-c card">
                                         <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216908010.jpg`} alt="" />
