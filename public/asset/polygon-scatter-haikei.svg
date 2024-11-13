@@ -6,7 +6,7 @@
    height="540"
    version="1.1"
    sodipodi:docname="polygon-scatter-haikei.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,6 +35,32 @@
        x2="1.2903225"
        y2="539.35486"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter7"
+       x="-inf"
+       y="-0.0063266023"
+       width="inf"
+       height="1.0126532">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4234855"
+         id="feGaussianBlur7" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8"
+       x="-0.013057536"
+       y="-0.017298278"
+       width="1.0261151"
+       height="1.0345961">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.1572898"
+         id="feGaussianBlur8" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="namedview5"
@@ -45,13 +71,13 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.775"
-     inkscape:cx="272.25806"
-     inkscape:cy="430.32258"
+     inkscape:zoom="0.54800776"
+     inkscape:cx="505.4673"
+     inkscape:cy="592.1449"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="visual" />
   <rect
@@ -59,48 +85,71 @@
      height="540"
      fill="#001829"
      id="rect1"
-     style="fill-opacity:1;fill:url(#linearGradient6)" />
+     style="mix-blend-mode:normal;fill:url(#linearGradient6);fill-opacity:1;filter:url(#filter7)"
+     x="0"
+     y="0"
+     transform="matrix(1.1152416,0,0,1.1152416,-55.315979,-31.115241)" />
   <g
-     id="g5">
+     id="g5"
+     transform="matrix(1.1152416,0,0,1.1152416,-55.315979,-31.115241)"
+     style="mix-blend-mode:normal;filter:url(#filter8)">
     <g
-       transform="translate(689 466)"
+       transform="translate(689,466)"
        id="g1">
       <path
-         d="M0 -72.8L63.1 -36.4L63.1 36.4L0 72.8L-63.1 36.4L-63.1 -36.4Z"
+         d="m 0,-72.8 63.1,36.4 V 36.4 L 0,72.8 -63.1,36.4 v -72.8 z"
          fill="none"
          stroke="#496470"
          stroke-width="2"
          id="path1" />
     </g>
     <g
-       transform="translate(328 93)"
+       transform="translate(328,93)"
        id="g2">
       <path
-         d="M0 -59L51.1 -29.5L51.1 29.5L0 59L-51.1 29.5L-51.1 -29.5Z"
+         d="m 0,-59 51.1,29.5 v 59 L 0,59 -51.1,29.5 v -59 z"
          fill="none"
          stroke="#496470"
          stroke-width="2"
          id="path2" />
     </g>
     <g
-       transform="translate(887 440)"
+       transform="translate(887,440)"
        id="g3">
       <path
-         d="M0 -54L46.8 -27L46.8 27L0 54L-46.8 27L-46.8 -27Z"
+         d="m 0,-54 46.8,27 V 27 L 0,54 -46.8,27 v -54 z"
          fill="none"
          stroke="#496470"
          stroke-width="2"
          id="path3" />
     </g>
     <g
-       transform="translate(810 308)"
+       transform="translate(810,308)"
        id="g4">
       <path
-         d="M0 -54L46.8 -27L46.8 27L0 54L-46.8 27L-46.8 -27Z"
+         d="m 0,-54 46.8,27 V 27 L 0,54 -46.8,27 v -54 z"
          stroke="#496470"
          fill="none"
          stroke-width="2"
          id="path4" />
     </g>
   </g>
+  <path
+     style="mix-blend-mode:normal;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter7)"
+     d="M 0,0 V 540 Z"
+     id="path6"
+     sodipodi:nodetypes="ccc"
+     transform="matrix(1.1152416,0,0,1.1152416,-55.315979,-31.115241)" />
+  <path
+     id="rect6"
+     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:0.0714285;stroke-linecap:round;stroke-linejoin:round"
+     d="M 282.625,540 0,210 V 528.6875 C 0,534.95416 5.0458441,540 11.3125,540 Z"
+     sodipodi:nodetypes="ccssc"
+     transform="matrix(1.1152416,0,0,1.1152416,-55.315979,-31.115241)" />
+  <path
+     id="path7"
+     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:0.0714285;stroke-linecap:round;stroke-linejoin:round"
+     d="M 677.375,0 960,330 V 11.3125 C 960,5.0458402 954.95416,0 948.6875,0 Z"
+     sodipodi:nodetypes="ccssc"
+     transform="matrix(1.1152416,0,0,1.1152416,-55.315979,-31.115241)" />
 </svg>

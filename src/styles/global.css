@@ -1,17 +1,17 @@
 .outer-card {
     color: white;
-    backdrop-filter: blur(10px) brightness(0.7);
     border-width: 2px;
     border-style: solid;
     border-color: hsla(0, 0%, 100%, 0.9);
     border-radius: 20px;
     min-height: 50rem;
-    padding: 2rem;
-    max-width: 1400px;
+    padding-top: 5vh;
+    padding-inline: 2rem;
+    padding-block-end: 2rem;
 }
 
 .section {
-    min-height: 50vw;
+    min-height: 50rem;
 }
 
 .container {
@@ -67,8 +67,12 @@
 
 .f-content {
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1440px;
     flex: 1;
+}
+
+.footer-child {
+    min-width: 150px;
 }
 
 .img {
@@ -86,7 +90,8 @@
 }
 
 .nav {
-    padding: 0.5rem;
+    padding: 1rem;
+    padding-inline: 10rem;
     backdrop-filter: blur(10px);
 }
 

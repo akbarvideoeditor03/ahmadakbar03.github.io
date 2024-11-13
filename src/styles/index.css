@@ -5,17 +5,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: 'Figtree', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
   background-image: url('../../public/asset/polygon-scatter-haikei.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+main {
   padding: 32px;
   min-height: 100vh;
 }
@@ -31,11 +34,13 @@ nav {
   z-index: 100;
   top: 0px;
   line-height: 50px;
+  background-color: rgba(26, 26, 26, 0.85);
+  color: white;
 }
 
 nav a {
+  cursor: pointer;
   text-decoration: none;
-  color: white;
   font-weight: 600;
 }
 
@@ -44,5 +49,23 @@ nav a:hover {
   color: rgb(255, 225, 0);
   font-weight: 600;
 }
+
+.active {
+  text-decoration: none;
+  color: rgb(255, 225, 0);
+  font-weight: 600;
+  text-shadow: 0px 0px 20px rgb(255, 213, 0);
+}
+
+footer {
+  line-height: 50px;
+  background-color: rgba(26, 26, 26, 0.85);
+  backdrop-filter: blur(10.9px);
+  -webkit-backdrop-filter: blur(10.9px);
+  color: white;
+  padding: 1rem;
+  padding-inline: 10rem;
+}
+
 
 

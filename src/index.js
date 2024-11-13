@@ -4,11 +4,14 @@ import './styles/index.css';
 import './styles/global.css';
 import App from './pages/App';
 import reportWebVitals from './helper/reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router basename='/ahmadakbar03.github.io'>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
