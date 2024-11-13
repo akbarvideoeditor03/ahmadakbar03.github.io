@@ -50,22 +50,16 @@ nav a:hover {
   font-weight: 600;
 }
 
+footer {
+  color: white;
+  min-height: 20vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
 .active {
   text-decoration: none;
   color: rgb(255, 225, 0);
   font-weight: 600;
   text-shadow: 0px 0px 20px rgb(255, 213, 0);
 }
-
-footer {
-  line-height: 50px;
-  background-color: rgba(26, 26, 26, 0.85);
-  backdrop-filter: blur(10.9px);
-  -webkit-backdrop-filter: blur(10.9px);
-  color: white;
-  padding: 1rem;
-  padding-inline: 10rem;
-}
-
-
-

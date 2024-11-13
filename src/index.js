@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import './styles/global.css';
+import './styles/responsive.css';
 import App from './pages/App';
 import reportWebVitals from './helper/reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
+const myUrl = '/ahmadakbar03.github.io'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/ahmadakbar03.github.io'>
+    <Router basename={`${myUrl}`}>
       <App />
     </Router>
   </React.StrictMode>
