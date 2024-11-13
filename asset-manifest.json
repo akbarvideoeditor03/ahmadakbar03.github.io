@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ahmadakbar03.github.io/static/css/main.9fe185c0.css",
-    "main.js": "/ahmadakbar03.github.io/static/js/main.a00508fd.js",
+    "main.js": "/ahmadakbar03.github.io/static/js/main.d5fbca7d.js",
     "static/js/453.2acb10bf.chunk.js": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js",
     "static/media/polygon-scatter-haikei.svg": "/ahmadakbar03.github.io/static/media/polygon-scatter-haikei.e63fdd4778f59312afc6.svg",
     "index.html": "/ahmadakbar03.github.io/index.html",
     "main.9fe185c0.css.map": "/ahmadakbar03.github.io/static/css/main.9fe185c0.css.map",
-    "main.a00508fd.js.map": "/ahmadakbar03.github.io/static/js/main.a00508fd.js.map",
+    "main.d5fbca7d.js.map": "/ahmadakbar03.github.io/static/js/main.d5fbca7d.js.map",
     "453.2acb10bf.chunk.js.map": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe185c0.css",
-    "static/js/main.a00508fd.js"
+    "static/js/main.d5fbca7d.js"
   ]
 }
