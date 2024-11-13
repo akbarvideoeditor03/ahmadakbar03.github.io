@@ -90,6 +90,11 @@
     padding-block: 1rem;
 }
 
+.grid-auto-col {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 1rem;
+}
+
 .lb {
     border-bottom-color: white;
     border-bottom-width: 1px;
