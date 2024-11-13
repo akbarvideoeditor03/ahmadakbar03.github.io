@@ -167,7 +167,7 @@ function Home() {
                         <div className="container col-f f-between card">
                             <img className="img-card" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_800/feedshare-shrink_800/0/1716854896364?e=1734566400&v=beta&t=cDr949glANHITPP9haSd1YQKZNjb5tr-7OV8Tx1jEh4" alt="" />
                             <p>Certificate of Completion for Logic 101 Program Class</p>
-                            <Link target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'>See other certificates</Link>
+                            <Link target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i class="bi bi-linkedin"></i> See other certificates</Link>
                         </div>
                         <div className="container col-f f-between card">
                             <img className="img-card" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1734566400&v=beta&t=KX75ytRkbftUZ5w8OLVYoFgxi5o9_gDbtQ2QDTwNzoc" alt="" />
