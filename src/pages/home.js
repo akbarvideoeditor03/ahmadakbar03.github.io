@@ -48,6 +48,12 @@ function Home() {
                     </div>
                 </div>
                 <div className="container col-f f-center">
+                    <h2 style={{ color: 'yellow' }}>My Latest Education</h2>
+                    <div>
+                        <p style={{ textAlign: 'center', fontSize: '120%', fontWeight: '500' }}>"My latest education was at SMK Negeri 6 Bungo, majoring in Multimedia. I attended from July 2018 to July 2021, graduating as the top student."</p>
+                    </div>
+                </div>
+                <div className="container col-f f-center">
                     <h2 style={{ color: 'yellow' }}>These are My Skills.</h2>
                     <p style={{ textAlign: 'center', fontSize: '125%', fontWeight: '500' }}>
                         "My skills lie in the field of multimedia and technology, particularly in website development, but still in the learning stage."
@@ -89,7 +95,7 @@ function Home() {
                 </div>
             </div>
             <div id="experience" className="container swap section">
-                <div className="container col-f flex-1">
+                <div className="container col-f flex-1 t-center-md">
                     <h2>These are</h2>
                     <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Experiences</p>
                 </div>
