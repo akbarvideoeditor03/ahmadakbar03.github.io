@@ -6,34 +6,31 @@ const myUrl = '/ahmadakbar03.github.io'
 function Home() {
     return (
         <section className="container col-f outer-card f-content">
-            <div className="container col-f">
-                <div className="container row-f f-center">
-                    <img style={{ height: '20px' }} src={`${myUrl}/asset/icons/dot-white.svg`} alt="white-dot" />
-                    <h1 style={{ fontSize: '200%' }}>Welcome to My Portofolio</h1>
-                </div>
-                <p style={{ fontSize: '125%', color: 'yellow' }}><i>"Showcasing my journey in multimedia and web development."</i></p>
+            <div className="container col-f t-center">
+                <h1 style={{ fontSize: '180%' }}><i style={{ fontSize: '70%' }} class="bi bi-circle-fill"></i> Welcome to My Portofolio</h1>
+                <p className="z-index-md" style={{ fontSize: '125%', color: 'yellow' }}><i>"Showcasing my journey in multimedia and web development."</i></p>
             </div>
             <div id="name" className="container row-f section f-wrap-r f-center-c">
                 <div className="container col-f flex-1-combo text-sm">
-                    <h1>Hello!, I'm <b style={{ color: 'yellow' }} >Ahmad Akbar</b> </h1>
-                    <div className="container row-f f-center text-sm">
-                        <TypeAnimation
-                            sequence={[
-                                "I'm a Student",
-                                2000,
-                                "I'm a Video Editor",
-                                2000,
-                                "I'm a Web Programmer",
-                                2000,
-                                "I'm a Front End Developer",
-                                2000
-                            ]}
-                            deletionSpeed={50}
-                            wrapper="span"
-                            speed={50}
-                            style={{ fontSize: '2em', display: 'inline-block' }}
-                            repeat={Infinity}
-                        />
+                    <h1 className="z-index-md">Hello!, I'm <b style={{ color: 'yellow' }} >Ahmad Akbar</b> </h1>
+                    <div className="container row-f text-sm">
+                        <p className="z-index-md" style={{ fontSize: '1.75em' }}>I'm a
+                            <TypeAnimation
+                                sequence={[
+                                    ` Student`,
+                                    2000,
+                                    " Video Editor",
+                                    2000,
+                                    " Web Programmer",
+                                    2000,
+                                    " Front End Developer",
+                                    2000
+                                ]}
+                                deletionSpeed={20}
+                                speed={30}
+                                style={{ color: 'yellow' }}
+                                repeat={Infinity}
+                            /></p>
                     </div>
                 </div>
                 <div className="container col-f flex-1-combo f-center-r f-center-c">
@@ -95,64 +92,68 @@ function Home() {
                 </div>
             </div>
             <div id="experience" className="container swap section">
-                <div className="container col-f flex-1 t-center-md">
+                <div className="container col-f flex-1 t-center-md z-index-md">
                     <h2>These are</h2>
                     <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Experiences</p>
                 </div>
                 <div className="container col-f flex-1">
                     <ol style={{ marginLeft: '1rem' }} type="1">
-                        <li className="lb">
+                        <li style={{ paddingLeft: '0.5rem' }} className="lb">
                             <section className="container col-f">
-                                <p>
-                                    I worked for over 2 years as a video editor at BuanaTV (Bungo's Online Media), teaching internship participants, and participating in various media programs.
-                                </p>
-                                <p><img style={{ height: '12px' }} src={`${myUrl}/asset/icons/dot-white.svg`} alt="white-dot" /> Since January 2020 - December 2021</p>
+                                <div className="container col-f z-index-md">
+                                    <p>
+                                        I worked for over 2 years as a video editor at BuanaTV (Bungo's Online Media), teaching internship participants, and participating in various media programs.
+                                    </p>
+                                    <p><i style={{ fontSize: '80%' }} class="bi bi-circle-fill"></i> Since January 2020 - December 2021</p>
+                                </div>
                                 <div className="grid grid-col-3 grid-col-2 grid-col-1">
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216712736.jpg`} alt="" />
-                                        <p>Edited Video</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/FB_IMG_1728216712736.jpg`} alt="" />
+                                        <p className="z-index-md">Edited Video</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216668165.jpg`} alt="" />
-                                        <p>BTS Video Content Program</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/FB_IMG_1728216668165.jpg`} alt="" />
+                                        <p className="z-index-md">BTS Video Content Program</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216616921.jpg`} alt="" />
-                                        <p>Taught Multimedia</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/FB_IMG_1728216616921.jpg`} alt="" />
+                                        <p className="z-index-md">Taught Multimedia</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216908010.jpg`} alt="" />
-                                        <p>BTS Video Content Program</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/FB_IMG_1728216908010.jpg`} alt="" />
+                                        <p className="z-index-md">BTS Video Content Program</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/FB_IMG_1728216820354.jpg`} alt="" />
-                                        <p>BTS Video Content Program</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/FB_IMG_1728216820354.jpg`} alt="" />
+                                        <p className="z-index-md">BTS Video Content Program</p>
                                     </div>
                                 </div>
                             </section>
                         </li>
                         <li>
                             <section className="container col-f">
-                                <p>
-                                    Through the Kampus Merdeka program, I successfully completed a self-study in Front-End and Back-End Web Development at Dicoding Academy for approximately 5 months.
-                                </p>
-                                <p><img style={{ height: '12px' }} src={`${myUrl}/asset/icons/dot-white.svg`} alt="white-dot" /> Since February 2024 - June 2024</p>
+                                <div className="container col-f z-index-md">
+                                    <p>
+                                        Through the Kampus Merdeka program, I successfully completed a self-study in Front-End and Back-End Web Development at Dicoding Academy for approximately 5 months.
+                                    </p>
+                                    <p><i style={{ fontSize: '80%' }} class="bi bi-circle-fill"></i> Since February 2024 - June 2024</p>
+                                </div>
                                 <div className="grid grid-col-3 grid-col-2 grid-col-1">
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h21m36s127.png`} alt="" />
-                                        <p>Study Group Session</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h21m36s127.png`} alt="" />
+                                        <p className="z-index-md">Study Group Session</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h22m33s358.png`} alt="" />
-                                        <p>ILT Soft Skil Session</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h22m33s358.png`} alt="" />
+                                        <p className="z-index-md">ILT Soft Skil Session</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h21m47s074.png`} alt="" />
-                                        <p>ILT Tech Session</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h21m47s074.png`} alt="" />
+                                        <p className="z-index-md">ILT Tech Session</p>
                                     </div>
                                     <div className="container col-f f-center-c card">
-                                        <img className="img-s" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h22m02s348.png`} alt="" />
-                                        <p>Weekly Consultation</p>
+                                        <img className="img-s z-index-md" src={`${myUrl}/asset/pictures/vlcsnap-2024-11-13-10h22m02s348.png`} alt="" />
+                                        <p className="z-index-md">Weekly Consultation</p>
                                     </div>
                                 </div>
                             </section>
@@ -160,30 +161,30 @@ function Home() {
                     </ol>
                 </div>
             </div>
-            <div style={{ textAlign: 'center' }} id="certificates" className="container col-f f-center-c section">
-                <div className="container col-f">
+            <div id="certificates" className="container col-f f-center-c section t-center">
+                <div className="container col-f z-index-md">
                     <h2>These are</h2>
                     <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Certificates</p>
                 </div>
                 <div className="container col-f">
                     <section style={{ gap: '1rem' }} className="grid grid-col-1 grid-col-2 grid-col-3">
                         <div className="container col-f f-between card">
-                            <img className="img-card" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_800/feedshare-shrink_800/0/1716854896364?e=1734566400&v=beta&t=cDr949glANHITPP9haSd1YQKZNjb5tr-7OV8Tx1jEh4" alt="" />
-                            <p>Certificate of Completion for Logic 101 Program Class</p>
-                            <Link target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i class="bi bi-linkedin"></i> See other certificates</Link>
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_800/feedshare-shrink_800/0/1716854896364?e=1734566400&v=beta&t=cDr949glANHITPP9haSd1YQKZNjb5tr-7OV8Tx1jEh4" alt="" />
+                            <p className="z-index-md">Certificate of Completion for Logic 101 Program Class</p>
+                            <Link className="z-index-md" target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i class="bi bi-linkedin"></i> See other certificates</Link>
                         </div>
                         <div className="container col-f f-between card">
-                            <img className="img-card" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1734566400&v=beta&t=KX75ytRkbftUZ5w8OLVYoFgxi5o9_gDbtQ2QDTwNzoc" alt="" />
-                            <p>Certificate of Completion for Independent Study at Dicoding Academy</p>
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1734566400&v=beta&t=KX75ytRkbftUZ5w8OLVYoFgxi5o9_gDbtQ2QDTwNzoc" alt="" />
+                            <p className="z-index-md">Certificate of Completion for Independent Study at Dicoding Academy</p>
                         </div>
                         <div className="container col-f f-between card">
-                            <img className="img-card" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1734566400&v=beta&t=uKBKR6lc9dMdmE8WsyRQO0oV0qawDpH2K-hmOorrlPU" alt="" />
-                            <p>Certificate of Participation in Independent Study - Kampus Merdeka</p>
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1734566400&v=beta&t=uKBKR6lc9dMdmE8WsyRQO0oV0qawDpH2K-hmOorrlPU" alt="" />
+                            <p className="z-index-md">Certificate of Participation in Independent Study - Kampus Merdeka</p>
                         </div>
                     </section>
                 </div>
             </div>
-            <div style={{ textAlign: 'center' }} id="about-web" className="container col-f f-center-c section-footer-home">
+            <div id="about-web" className="container col-f f-center-c section-footer-home t-center">
                 <div className="container col-f">
                     <h2>About</h2>
                     <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Portofolio Website</p>
