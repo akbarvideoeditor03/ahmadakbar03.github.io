@@ -1,26 +1,54 @@
+.btn {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    min-width: max-content;
+}
+
+.btn-primary {
+    background-color: rgb(10, 78, 130);
+}
+
+.btn-primary:hover {
+    background-color: rgb(35, 113, 173);
+}
+
+.btn-primary:active {
+    background-color: rgb(5, 53, 89);
+}
+
+.btn-dark {
+    background-color: rgb(40, 40, 40);
+}
+
+.btn-dark:hover {
+    background-color: rgb(76, 76, 76);
+}
+
+.btn-dark:active {
+    background-color: rgb(28, 28, 28);
+}
+
+.btn-custom-1 {
+    width: 100%;
+}
+
 .card {
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 0px 0px 200px #137a73;
 }
 
-.card a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-style: italic;
-    background-color: rgb(33, 66, 103);
-    padding: 0.5rem;
-    padding-inline: 1rem;
-    border-radius: 5px;
-}
-
-.card a:hover {
-    background-color: rgb(62, 92, 128);
-}
-
-.card a:active {
-    background-color: rgb(27, 57, 95);
+.card-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 25rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 0px 200px #137a73;
 }
 
 .col-f {
@@ -151,6 +179,8 @@
     width: calc(100%);
     display: grid;
     padding-block: 1rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .grid-auto-col {
@@ -183,8 +213,8 @@
     flex: 1;
     border-radius: 10px;
     width: 100%;
-    max-height: 360px;
-    object-fit: contain;
+    max-height: 240px;
+    object-fit: cover;
     z-index: -100;
 }
 
@@ -199,21 +229,12 @@
     transform: scale(120%);
 }
 
-.img-s {
-    border-radius: 10px;
-    min-width: 240px;
-    width: calc(100%);
-    min-height: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-
 .lb {
     border-bottom-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     padding-bottom: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     z-index: 50;
 }
 
@@ -233,7 +254,7 @@
 
 .section {
     min-height: 50rem;
-    margin-bottom: 1rem;
+    padding-block: 3rem;
     border-bottom-style: solid;
     border-bottom-color: white;
     border-bottom-width: 1px;
@@ -243,8 +264,26 @@
     min-height: 50rem;
 }
 
+.sc-title {
+    font-size: 250%;
+    font-weight: bold;
+    color: #ffe100;
+    z-index: 50;
+}
+
+.sc-about {
+    min-height: 17.5rem;
+}
+
 .text {
     line-height: 1.15cm;
+}
+
+.text-container {
+    padding: 0.75rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 100px rgba(26, 92, 128, 0.25);
 }
 
 .t-center {

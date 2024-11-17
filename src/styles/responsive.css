@@ -1,10 +1,10 @@
-@media screen and (max-width : 440.5px) {
+@media screen and (max-width : 540.5px) {
     .outer-card {
         color: white;
     }
 }
 
-@media screen and (min-width : 440.5px) {
+@media screen and (min-width : 540.5px) {
     .outer-card {
         color: white;
         border-width: 2px;
@@ -32,6 +32,30 @@
     }
 }
 
+@media screen and (max-width : 868.5px) {
+    .swap-about {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 868.5px) {
+    .swap-about {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .line {
+        width: 1px;
+        background-color: white;
+        min-height: 10rem;
+    }
+}
+
 @media screen and (max-width : 720.5px) {
     .grid-col-1 {
         grid-template-columns: repeat(1, 1fr);
@@ -47,7 +71,7 @@
     }
 }
 
-@media (max-width: 720.5px) {
+@media screen and (max-width: 720.5px) {
     .dropdown-menu {
         width: 100vw;
         right: -1rem;
@@ -81,6 +105,14 @@
         flex-direction: column;
         gap: 1rem;
     }
+
+    .img-s {
+        border-radius: 10px;
+        min-width: calc(185px);
+        width: 100%;
+        min-height: 300px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (min-width : 1024.5px) {
@@ -88,6 +120,14 @@
         flex-direction: row;
         gap: 1rem;
         align-items: center;
+    }
+
+    .img-s {
+        border-radius: 10px;
+        min-width: calc(240px);
+        width: 100%;
+        min-height: 300px;
+        object-fit: cover;
     }
 }
 

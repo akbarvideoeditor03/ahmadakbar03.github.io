@@ -12,7 +12,7 @@ function Home() {
             </div>
             <div id="name" className="container row-f section f-wrap-r f-center-c">
                 <div className="container col-f flex-1-combo text-sm">
-                    <h1 className="z-index-md">Hello!, I'm <b style={{ color: 'yellow' }} >Ahmad Akbar</b> </h1>
+                    <h1 className="z-index-md">Hello!, I'm <b style={{ color: '#ffe100' }}> Ahmad Akbar</b></h1>
                     <div className="container row-f text-sm">
                         <p className="z-index-md" style={{ fontSize: '1.75em' }}>I'm a
                             <TypeAnimation
@@ -28,77 +28,96 @@ function Home() {
                                 ]}
                                 deletionSpeed={20}
                                 speed={30}
-                                style={{ color: 'yellow' }}
+                                style={{ color: '#ffe100' }}
                                 repeat={Infinity}
                             /></p>
+                    </div>
+                    <div className="container row-f f-wrap">
+                        <Link className="z-index-md btn btn-dark" target="blank" to='https://github.com/akbarvideoeditor03'><i class="bi bi-github"></i> GitHub</Link>
+                        <Link className="z-index-md btn btn-primary" target="blank" to='https://www.linkedin.com/in/ahmad-akbar-0a533b275/'><i class="bi bi-linkedin"></i> LinkedIn</Link>
                     </div>
                 </div>
                 <div className="container col-f flex-1-combo f-center-r f-center-c">
                     <img className="img" src="https://raw.githubusercontent.com/akbarvideoeditor03/General/refs/heads/main/FotoSaya.jpg" alt="" />
                 </div>
             </div>
-            <div id="about" className="container col-f f-evenly section">
-                <div className="container col-f f-center">
-                    <h2 style={{ color: 'yellow' }}>About Me</h2>
-                    <div>
-                        <p style={{ textAlign: 'center', fontSize: '120%', fontWeight: '500' }}>"I am Ahmad Akbar, an active undergraduate student, majoring in Information Systems, Dinamika Bangsa University. I am interested in visual science and computer science, and technology. I am interested in web development."</p>
-                    </div>
-                </div>
-                <div className="container col-f f-center">
-                    <h2 style={{ color: 'yellow' }}>My Latest Education</h2>
-                    <div>
-                        <p style={{ textAlign: 'center', fontSize: '120%', fontWeight: '500' }}>"My latest education was at SMK Negeri 6 Bungo, majoring in Multimedia. I attended from July 2018 to July 2021, graduating as the top student."</p>
-                    </div>
-                </div>
-                <div className="container col-f f-center">
-                    <h2 style={{ color: 'yellow' }}>These are My Skills.</h2>
-                    <p style={{ textAlign: 'center', fontSize: '125%', fontWeight: '500' }}>
-                        "My skills lie in the field of multimedia and technology, particularly in website development, but still in the learning stage."
-                    </p>
-                    <div className="grid grid-auto-col">
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/DaVinci_Resolve_17_logo.svg`} alt="" />
-                        <img style={{ height: '38px' }} src={`${myUrl}/asset/icons/Inkscape_Logo.svg`} alt="" />
-                        <img style={{ height: '30px' }} src={`${myUrl}/asset/icons/blender-2.svg`} alt="" />
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Figma.svg`} alt="" />
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/HTML5 Logo.svg`} alt="" />
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/CSS3_logo.svg`} alt="" />
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Unofficial_JavaScript_logo_2.svg`} alt="" />
-                        <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/logos--supabase-icon.svg`} alt="" />
-                    </div>
-                </div>
-                <div className="container col-f f-center">
-                    <div className="container row-f flex-1">
-                        <div className="container col-f f-center-c">
-                            <p>Check out my social media.</p>
-                            <div style={{ height: '50px', width: '100%', maxWidth: '300px' }} className="container row-f">
-                                <Link target="blank" to='https://github.com/akbarvideoeditor03' title="GitHub : akbarvideoeditor03">
-                                    <img className="img-icons" src={`${myUrl}/asset/icons/github.svg`} alt="" />
-                                </Link>
-                                <Link target="blank" to='https://www.instagram.com/ahmadakbar03/' title="Instagram : ahmadakbar03">
-                                    <img className="img-icons" src={`${myUrl}/asset/icons/instagram.svg`} alt="" />
-                                </Link>
-                                <Link target="blank" to='https://www.youtube.com/@ahmadakbar03' title="YouTube : Media Cara">
-                                    <img className="img-icons" src={`${myUrl}/asset/icons/youtube.svg`} alt="" />
-                                </Link>
-                                <Link target="blank" to='https://mail.google.com/mail/u/1/#inbox?compose=new' title="akbarvideoeditor03">
-                                    <img className="img-icons" src={`${myUrl}/asset/icons/gmail.svg`} alt="" />
-                                </Link>
-                                <Link target="blank" to='https://www.linkedin.com/in/ahmad-akbar-0a533b275/'>
-                                    <img className="img-icons" src={`${myUrl}/asset/icons/linkedin.svg`} alt="" />
-                                </Link>
+            <div id="about" className="container col-f section flex-1">
+                <p className="t-center sc-title">About Me</p>
+                <div style={{ paddingBlock: '3rem' }} className="container swap-about flex-1">
+                    <div className="container col-f flex-1-combo">
+                        <div className="container col-f lb sc-about">
+                            <h2 style={{ color: '#ffe100' }}>My Personal Data <i style={{color : 'white'}} class="bi-person-vcard-fill"></i></h2>
+                            <div className="container col-f">
+                                <p>Full Name</p>
+                                <p className="text-container">Ahmad Akbar</p>
+                                <p>Place and Date of Birth</p>
+                                <p className="text-container">Tebo Jaya, February 26, 2003</p>
+                                <p>Address</p>
+                                <p className="text-container">RB. Siagian Street, Tambak Sari, Jambi City</p>
+                                <p>Phone Number</p>
+                                <p className="text-container">0831-7263-3234</p>
+                                <p>Email</p>
+                                <p className="text-container">akbarvideoeditor03@gmail.com</p>
                             </div>
                         </div>
+                        <div className="container col-f sc-about">
+                            <h2 style={{ color: '#ffe100' }}>About Me <i style={{color : 'white'}} class="fa-solid fa-circle-info"></i></h2>
+                            <div>
+                                <p style={{ fontSize: '120%', fontWeight: '500' }}>I an active undergraduate student, majoring in Information Systems, Dinamika Bangsa University. I am interested in visual science and computer science, and technology. I am interested in web development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="line">
+                    </div>
+                    <div className="container col-f flex-1-combo">
+                        <div className="container col-f lb sc-about">
+                            <h2 style={{ color: '#ffe100' }}>My Latest Education <i style={{color : 'white'}} class="fa-solid fa-graduation-cap"></i></h2>
+                            <p style={{ fontSize: '120%', fontWeight: '500' }}>My latest education was at SMK Negeri 6 Bungo, majoring in Multimedia. I attended from July 2018 to July 2021, graduating as the top student.</p>
+                        </div>
+                        <div className="container col-f sc-about">
+                            <h2 style={{ color: '#ffe100' }}>These are My Skills <i style={{color : 'white'}} class="fa-solid fa-user-gear"></i></h2>
+                            <p style={{ fontSize: '125%', fontWeight: '500' }}>
+                                My skills lie in the field of multimedia and technology, particularly in website development, but still in the learning stage.
+                            </p>
+                            <div className="container row-f f-wrap f-center-c">
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/DaVinci_Resolve_17_logo.svg`} alt="" />
+                                <img style={{ height: '38px' }} src={`${myUrl}/asset/icons/Inkscape_Logo.svg`} alt="" />
+                                <img style={{ height: '30px' }} src={`${myUrl}/asset/icons/blender-2.svg`} alt="" />
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Figma.svg`} alt="" />
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/HTML5 Logo.svg`} alt="" />
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/CSS3_logo.svg`} alt="" />
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Unofficial_JavaScript_logo_2.svg`} alt="" />
+                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/logos--supabase-icon.svg`} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="container col-f f-center-c flex-1">
+                    <p>Check out my social media</p>
+                    <div style={{ height: '50px', width: '100%', maxWidth: '300px' }} className="grid grid-auto-col">
+                        <Link target="blank" to='https://github.com/akbarvideoeditor03' title="GitHub : akbarvideoeditor03">
+                            <img className="img-icons" src={`${myUrl}/asset/icons/github.svg`} alt="" />
+                        </Link>
+                        <Link target="blank" to='https://www.instagram.com/ahmadakbar03/' title="Instagram : ahmadakbar03">
+                            <img className="img-icons" src={`${myUrl}/asset/icons/instagram.svg`} alt="" />
+                        </Link>
+                        <Link target="blank" to='https://www.youtube.com/@ahmadakbar03' title="YouTube : Media Cara">
+                            <img className="img-icons" src={`${myUrl}/asset/icons/youtube.svg`} alt="" />
+                        </Link>
+                        <Link target="blank" to='https://www.linkedin.com/in/ahmad-akbar-0a533b275/'>
+                            <img className="img-icons" src={`${myUrl}/asset/icons/linkedin.svg`} alt="" />
+                        </Link>
                     </div>
                 </div>
             </div>
             <div id="experience" className="container swap section">
                 <div className="container col-f flex-1 t-center-md z-index-md">
                     <h2>These are</h2>
-                    <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Experiences</p>
+                    <p className="sc-title">My Experiences</p>
                 </div>
                 <div className="container col-f flex-1">
                     <ol style={{ marginLeft: '1rem' }} type="1">
-                        <li style={{ paddingLeft: '0.5rem' }} className="lb">
+                        <li style={{ paddingLeft: '0.75rem' }} className="lb">
                             <section className="container col-f">
                                 <div className="container col-f z-index-md">
                                     <p>
@@ -130,7 +149,7 @@ function Home() {
                                 </div>
                             </section>
                         </li>
-                        <li>
+                        <li style={{ paddingLeft: '0.75rem' }}>
                             <section className="container col-f">
                                 <div className="container col-f z-index-md">
                                     <p>
@@ -164,22 +183,28 @@ function Home() {
             <div id="certificates" className="container col-f f-center-c section t-center">
                 <div className="container col-f z-index-md">
                     <h2>These are</h2>
-                    <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Certificates</p>
+                    <p className="sc-title">My Certificates</p>
                 </div>
                 <div className="container col-f">
                     <section style={{ gap: '1rem' }} className="grid grid-col-1 grid-col-2 grid-col-3">
-                        <div className="container col-f f-between card">
+                        <div className="container col-f f-between card-img">
                             <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_800/feedshare-shrink_800/0/1716854896364?e=1734566400&v=beta&t=cDr949glANHITPP9haSd1YQKZNjb5tr-7OV8Tx1jEh4" alt="" />
-                            <p className="z-index-md">Certificate of Completion for Logic 101 Program Class</p>
-                            <Link className="z-index-md" target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i class="bi bi-linkedin"></i> See other certificates</Link>
+                            <div className="container col-f f-center-c flex-1">
+                                <p className="z-index-md">Certificate of Completion for Logic 101 Program Class</p>
+                                <Link className="z-index-md btn btn-primary btn-custom-1" target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i class="bi bi-linkedin"></i> See other certificates</Link>
+                            </div>
                         </div>
-                        <div className="container col-f f-between card">
+                        <div className="container col-f f-between card-img">
                             <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1734566400&v=beta&t=KX75ytRkbftUZ5w8OLVYoFgxi5o9_gDbtQ2QDTwNzoc" alt="" />
-                            <p className="z-index-md">Certificate of Completion for Independent Study at Dicoding Academy</p>
+                            <div className="container col-f f-center-c flex-1">
+                                <p className="z-index-md">Certificate of Completion for Independent Study at Dicoding Academy</p>
+                            </div>
                         </div>
-                        <div className="container col-f f-between card">
+                        <div className="container col-f f-between card-img">
                             <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1734566400&v=beta&t=uKBKR6lc9dMdmE8WsyRQO0oV0qawDpH2K-hmOorrlPU" alt="" />
-                            <p className="z-index-md">Certificate of Participation in Independent Study - Kampus Merdeka</p>
+                            <div className="container col-f f-center-c flex-1">
+                                <p className="z-index-md">Certificate of Participation in Independent Study - Kampus Merdeka</p>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -187,7 +212,7 @@ function Home() {
             <div id="about-web" className="container col-f f-center-c section-footer-home t-center">
                 <div className="container col-f">
                     <h2>About</h2>
-                    <p style={{ fontWeight: 'bold', fontSize: '250%', color: 'yellow' }} >My Portofolio Website</p>
+                    <p className="sc-title">My Portofolio Website</p>
                 </div>
                 <div className="container col-f">
                     <p>
