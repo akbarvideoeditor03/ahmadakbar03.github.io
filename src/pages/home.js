@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
-const myUrl = '/ahmadakbar03.github.io'
+const myUrl = '/ahmadakbar03.github.io';
 
 function Home() {
     return (
