@@ -1,16 +1,44 @@
 {
   "files": {
-    "main.css": "/ahmadakbar03.github.io/static/css/main.48452a2d.css",
-    "main.js": "/ahmadakbar03.github.io/static/js/main.33610cd3.js",
-    "static/js/453.2acb10bf.chunk.js": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js",
+    "main.css": "/ahmadakbar03.github.io/static/css/main.afc4292b.css",
+    "main.js": "/ahmadakbar03.github.io/static/js/main.3d77b862.js",
+    "reactPlayerYouTube.js": "/ahmadakbar03.github.io/static/js/reactPlayerYouTube.d0bc3d4a.chunk.js",
+    "reactPlayerSoundCloud.js": "/ahmadakbar03.github.io/static/js/reactPlayerSoundCloud.e11cafe7.chunk.js",
+    "reactPlayerVimeo.js": "/ahmadakbar03.github.io/static/js/reactPlayerVimeo.7038c7a0.chunk.js",
+    "reactPlayerMux.js": "/ahmadakbar03.github.io/static/js/reactPlayerMux.0dc1ad84.chunk.js",
+    "reactPlayerFacebook.js": "/ahmadakbar03.github.io/static/js/reactPlayerFacebook.7872bfa5.chunk.js",
+    "reactPlayerStreamable.js": "/ahmadakbar03.github.io/static/js/reactPlayerStreamable.f39720f3.chunk.js",
+    "reactPlayerWistia.js": "/ahmadakbar03.github.io/static/js/reactPlayerWistia.9bc8c39b.chunk.js",
+    "reactPlayerTwitch.js": "/ahmadakbar03.github.io/static/js/reactPlayerTwitch.0621db83.chunk.js",
+    "reactPlayerDailyMotion.js": "/ahmadakbar03.github.io/static/js/reactPlayerDailyMotion.c2518a57.chunk.js",
+    "reactPlayerMixcloud.js": "/ahmadakbar03.github.io/static/js/reactPlayerMixcloud.7399e109.chunk.js",
+    "reactPlayerVidyard.js": "/ahmadakbar03.github.io/static/js/reactPlayerVidyard.a1c6d7fc.chunk.js",
+    "reactPlayerKaltura.js": "/ahmadakbar03.github.io/static/js/reactPlayerKaltura.5d81b5d3.chunk.js",
+    "reactPlayerFilePlayer.js": "/ahmadakbar03.github.io/static/js/reactPlayerFilePlayer.65ead505.chunk.js",
+    "reactPlayerPreview.js": "/ahmadakbar03.github.io/static/js/reactPlayerPreview.50c35e08.chunk.js",
+    "static/js/453.c9877847.chunk.js": "/ahmadakbar03.github.io/static/js/453.c9877847.chunk.js",
     "static/media/polygon-scatter-haikei.svg": "/ahmadakbar03.github.io/static/media/polygon-scatter-haikei.e63fdd4778f59312afc6.svg",
     "index.html": "/ahmadakbar03.github.io/index.html",
-    "main.48452a2d.css.map": "/ahmadakbar03.github.io/static/css/main.48452a2d.css.map",
-    "main.33610cd3.js.map": "/ahmadakbar03.github.io/static/js/main.33610cd3.js.map",
-    "453.2acb10bf.chunk.js.map": "/ahmadakbar03.github.io/static/js/453.2acb10bf.chunk.js.map"
+    "main.afc4292b.css.map": "/ahmadakbar03.github.io/static/css/main.afc4292b.css.map",
+    "main.3d77b862.js.map": "/ahmadakbar03.github.io/static/js/main.3d77b862.js.map",
+    "reactPlayerYouTube.d0bc3d4a.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerYouTube.d0bc3d4a.chunk.js.map",
+    "reactPlayerSoundCloud.e11cafe7.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerSoundCloud.e11cafe7.chunk.js.map",
+    "reactPlayerVimeo.7038c7a0.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerVimeo.7038c7a0.chunk.js.map",
+    "reactPlayerMux.0dc1ad84.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerMux.0dc1ad84.chunk.js.map",
+    "reactPlayerFacebook.7872bfa5.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerFacebook.7872bfa5.chunk.js.map",
+    "reactPlayerStreamable.f39720f3.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerStreamable.f39720f3.chunk.js.map",
+    "reactPlayerWistia.9bc8c39b.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerWistia.9bc8c39b.chunk.js.map",
+    "reactPlayerTwitch.0621db83.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerTwitch.0621db83.chunk.js.map",
+    "reactPlayerDailyMotion.c2518a57.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerDailyMotion.c2518a57.chunk.js.map",
+    "reactPlayerMixcloud.7399e109.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerMixcloud.7399e109.chunk.js.map",
+    "reactPlayerVidyard.a1c6d7fc.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerVidyard.a1c6d7fc.chunk.js.map",
+    "reactPlayerKaltura.5d81b5d3.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerKaltura.5d81b5d3.chunk.js.map",
+    "reactPlayerFilePlayer.65ead505.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerFilePlayer.65ead505.chunk.js.map",
+    "reactPlayerPreview.50c35e08.chunk.js.map": "/ahmadakbar03.github.io/static/js/reactPlayerPreview.50c35e08.chunk.js.map",
+    "453.c9877847.chunk.js.map": "/ahmadakbar03.github.io/static/js/453.c9877847.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48452a2d.css",
-    "static/js/main.33610cd3.js"
+    "static/css/main.afc4292b.css",
+    "static/js/main.3d77b862.js"
   ]
 }
