@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^13.5.0",
     "plyr-react": "^5.3.0",
     "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-player": "^2.16.0",
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
@@ -21,13 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "deploy": "gh-pages -d build",
+    "lint": "eslint ./src"
   },
   "browserslist": {
     "production": [
@@ -42,6 +39,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.12.0"
   }
 }

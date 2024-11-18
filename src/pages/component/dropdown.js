@@ -24,7 +24,7 @@ function Dropdown() {
             <button className="dropdown-button" onClick={toggleDropdown}>≡</button>
             <ul className={`dropdown-menu ${isOpen ? 'open' : ''}`}>
                 <Link to="name" offset={-1500} spy={true} smooth={true} duration={1500}>
-                    <i class="bi bi-arrow-up-circle-fill"></i>
+                    <i className="bi bi-arrow-up-circle-fill"></i>
                 </Link>
                 <Link to="name" offset={-105} spy={true} smooth={true} duration={500} activeClass="active">
                     Name
@@ -34,6 +34,9 @@ function Dropdown() {
                 </Link>
                 <Link to="experience" offset={-105} spy={true} smooth={true} duration={500} activeClass="active">
                     Experience
+                </Link>
+                <Link to="projects" offset={-105} spy={true} smooth={true} duration={500} activeClass="active">
+                    Projects
                 </Link>
                 <Link to="certificates" offset={-105} spy={true} smooth={true} duration={500} activeClass="active">
                     Certificates

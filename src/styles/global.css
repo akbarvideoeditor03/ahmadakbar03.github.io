@@ -48,7 +48,6 @@
     min-height: 25rem;
     border-radius: 10px;
     padding: 1rem;
-    box-shadow: 0px 0px 200px #137a73;
 }
 
 .col-f {
@@ -209,13 +208,24 @@
     border-color: white;
 }
 
+.img-sc-bg {
+    box-shadow: 0px 0px 200px hsla(176, 73%, 28%, 0.9);
+}
+
 .img-card {
     flex: 1;
     border-radius: 10px;
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    z-index: -100;
+}
+
+.img-card-project {
+    flex: 1;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 240px;
+    object-fit: contain;
 }
 
 .img-icons {
@@ -268,7 +278,7 @@
     font-size: 250%;
     font-weight: bold;
     color: #ffe100;
-    z-index: 50;
+    z-index: 60;
 }
 
 .sc-about {

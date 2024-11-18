@@ -1,3 +1,4 @@
+import React from 'react';
 import Home from './home';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './layout';

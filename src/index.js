@@ -6,7 +6,7 @@ import './styles/responsive.css';
 import App from './pages/App';
 import reportWebVitals from './helper/reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
-const myUrl = '/ahmadakbar03.github.io'
+const myUrl = '/ahmadakbar03.github.io';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
