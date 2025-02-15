@@ -224,20 +224,20 @@ function Home() {
                 <div className="container col-f">
                     <section style={{ gap: '1rem' }} className="grid grid-col-1 grid-col-2 grid-col-3">
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_800/feedshare-shrink_800/0/1716854896364?e=1734566400&v=beta&t=cDr949glANHITPP9haSd1YQKZNjb5tr-7OV8Tx1jEh4" alt="" />
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_1280/feedshare-shrink_1280/0/1716854896364?e=1742428800&v=beta&t=LlQNk0Nh5vXc4MJ1wy2jGNtD3aGNOlJQneAcQQcUnDA" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Completion for Logic 101 Program Class</p>
                                 <Link className="z-index-md btn btn-primary btn-custom-1" target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i className="bi bi-linkedin"></i> See other certificates</Link>
                             </div>
                         </div>
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1734566400&v=beta&t=KX75ytRkbftUZ5w8OLVYoFgxi5o9_gDbtQ2QDTwNzoc" alt="" />
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1742428800&v=beta&t=JmtdHu7RBJwZON4n0QWxiurWlcf0_66xoldbJ9VOXhI" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Completion for Independent Study at Dicoding Academy</p>
                             </div>
                         </div>
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1734566400&v=beta&t=uKBKR6lc9dMdmE8WsyRQO0oV0qawDpH2K-hmOorrlPU" alt="" />
+                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1742428800&v=beta&t=JaEiixwejWCWfTbyLLFFLk76UZ0ZQK2ztBJBJB5MRYI" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Participation in Independent Study - Kampus Merdeka</p>
                             </div>
