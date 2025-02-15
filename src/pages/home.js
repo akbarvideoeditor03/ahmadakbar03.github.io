@@ -224,20 +224,20 @@ function Home() {
                 <div className="container col-f">
                     <section style={{ gap: '1rem' }} className="grid grid-col-1 grid-col-2 grid-col-3">
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHCV2SySjf6rA/feedshare-shrink_1280/feedshare-shrink_1280/0/1716854896364?e=1742428800&v=beta&t=LlQNk0Nh5vXc4MJ1wy2jGNtD3aGNOlJQneAcQQcUnDA" alt="" />
+                            <img className="img-card z-index-md" src="https://raw.githubusercontent.com/akbarvideoeditor03/ahmadakbar03.github.io/refs/heads/main/public/asset/pictures/1716854896364.jpeg" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Completion for Logic 101 Program Class</p>
                                 <Link className="z-index-md btn btn-primary btn-custom-1" target="blank" to='https://www.linkedin.com/posts/ahmad-akbar-0a533b275_alhamdulillah-selama-4-bulan-terakhir-ini-activity-7201054576400027648-_6le?utm_source=share&utm_medium=member_desktop'><i className="bi bi-linkedin"></i> See other certificates</Link>
                             </div>
                         </div>
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQFtOJfaMWYrfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720758628460?e=1742428800&v=beta&t=JmtdHu7RBJwZON4n0QWxiurWlcf0_66xoldbJ9VOXhI" alt="" />
+                            <img className="img-card z-index-md" src="https://raw.githubusercontent.com/akbarvideoeditor03/ahmadakbar03.github.io/refs/heads/main/public/asset/pictures/1720758628285.jpeg" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Completion for Independent Study at Dicoding Academy</p>
                             </div>
                         </div>
                         <div className="container col-f f-between card-img img-sc-bg">
-                            <img className="img-card z-index-md" src="https://media.licdn.com/dms/image/v2/D4E22AQHtxbUDCBwCIw/feedshare-shrink_1280/feedshare-shrink_1280/0/1720758624871?e=1742428800&v=beta&t=JaEiixwejWCWfTbyLLFFLk76UZ0ZQK2ztBJBJB5MRYI" alt="" />
+                            <img className="img-card z-index-md" src="https://raw.githubusercontent.com/akbarvideoeditor03/ahmadakbar03.github.io/refs/heads/main/public/asset/pictures/1720758624877.jpeg" alt="" />
                             <div className="container col-f f-center-c flex-1">
                                 <p className="z-index-md">Certificate of Participation in Independent Study - Kampus Merdeka</p>
                             </div>
